@@ -1,5 +1,0 @@
-[phases.setup]
-nixPkgs = ["jdk21"]
-
-[start]
-cmd = "java -Dserver.port=$PORT -Dserver.address=0.0.0.0 -jar target/*.jar"
